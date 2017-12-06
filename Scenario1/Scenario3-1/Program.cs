@@ -20,11 +20,16 @@ namespace Scenario3_1
 
             for (int j = 0; j < numbers.GetLength(0); j++)
             {
+                int highest = 0;
                 for (int i = 0; i < numbers.GetLength(1); i++)
                 {
-                    Console.WriteLine(numbers[j, i]);
+                    if (numbers[j, i] > highest)
+                    {
+                        highest = numbers[j, i];
+                    }
+                    
                 }
-                Console.WriteLine("test");
+                Console.WriteLine(highest);
             }
         }
     }
