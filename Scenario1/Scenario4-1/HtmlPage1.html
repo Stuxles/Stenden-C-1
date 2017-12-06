@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript">
+        function mouseOver(x) {
+            x.src = "https://upload.wikimedia.org/wikipedia/commons/7/76/PIA06256_Mimas_full_view.jpg";
+        }
+
+        function mouseNotOver(x) {
+            x.src = "http://upload.wikimedia.org/wikipedia/commons/b/bc/Mimas_Cassini.jpg";
+        }
+    </script>
+</head>
+<body>
+<img onmouseover="mouseOver(this)"
+     onmouseout="mouseNotOver(this)"
+     height="400px" width="400px"
+     alt="Mimas Cassini" src=
+     "http://upload.wikimedia.org/wikipedia/commons/b/bc/Mimas_Cassini.jpg"
+     />
+</body>
+</html>
