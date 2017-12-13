@@ -12,7 +12,7 @@ namespace Scenario3_4
         {
             String[] words = {"bananen", "appels", "peren", "druiven", "komkommer"};
             LinkedList<string> list = new LinkedList<string>(words);
-
+            
             Console.WriteLine("Product:");
             String search = Console.ReadLine();
             if (list.Contains(search))
