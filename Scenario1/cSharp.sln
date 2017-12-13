@@ -31,7 +31,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-1", "Scenario4-1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-2", "Scenario4-2\Scenario4-2.csproj", "{F7EB8BDC-5A9B-4D1D-926D-9592DBC60B1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-3", "Scenario4-3\Scenario4-3.csproj", "{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-3Service", "Scenario4-3Service\Scenario4-3Service.csproj", "{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-3", "Scenario4-3\Scenario4-3.csproj", "{E794B426-851F-4AB9-81BB-6598E6CE8E6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B} = {A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +104,10 @@ Global
 		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E794B426-851F-4AB9-81BB-6598E6CE8E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E794B426-851F-4AB9-81BB-6598E6CE8E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E794B426-851F-4AB9-81BB-6598E6CE8E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E794B426-851F-4AB9-81BB-6598E6CE8E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
