@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario1-1", "Scenario1-1\Scenario1-1.csproj", "{3A689E4B-F9BC-4379-B76F-F9BFD2023294}"
 EndProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-1", "Scenario4-1\Scenario4-1.csproj", "{C651D9FA-DC80-46CE-8A58-3F846647DE24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-2", "Scenario4-2\Scenario4-2.csproj", "{F7EB8BDC-5A9B-4D1D-926D-9592DBC60B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scenario4-3", "Scenario4-3\Scenario4-3.csproj", "{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{F7EB8BDC-5A9B-4D1D-926D-9592DBC60B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7EB8BDC-5A9B-4D1D-926D-9592DBC60B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7EB8BDC-5A9B-4D1D-926D-9592DBC60B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23FB89A-7ECF-4D7D-9C7C-4B68945CE24B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

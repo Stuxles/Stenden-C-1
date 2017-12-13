@@ -11,7 +11,14 @@ namespace Scenario4_2
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (Request.QueryString["Name"] == null || Request.QueryString["Email"] == null)
+            {
+                Response.Write("Fill in all fields");
+            }
+            else
+            {
+                Response.Write($"Name: {Request.QueryString["Name"]}<br> Email: {Request.QueryString["Email"]}");
+            }
         }
     }
 }
